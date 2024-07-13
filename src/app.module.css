@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  list-style: none;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+}
+
+.light-on {
+  background-color: blue;
+}
